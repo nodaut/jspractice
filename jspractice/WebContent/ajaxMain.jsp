@@ -13,7 +13,7 @@
 				xRequest.onreadystatechange=function (){
 					console.log("==============\nonreadystatechange" 
 							+ "\nreadyState : " + this.readyState
-							+ "\nstatus : " + this.status
+							+ "\nstatus : " + this.st
 							+ "\nstatusText : " + this.statusText
 							+ "\nresponseText : " + this.responseText
 							+ "\ngetAllResponseHeaders() : " + this.getAllResponseHeaders()
