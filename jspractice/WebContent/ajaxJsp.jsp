@@ -5,6 +5,7 @@
 <html>
 	<body>
 		<% String inputData=request.getParameter("q");%>
+		<%System.out.println(inputData); %>
 		<div>
 			<p>This is ajaxJspFile paragraph</p>
 			<p><%=inputData%></p>
